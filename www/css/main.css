@@ -100,8 +100,38 @@ body {
   background-image: linear-gradient(to right, #5c8c96, #4e5a71);
 }
 /*-------------------- about us-------------------*/
-#about-us{
+#about-us {
   background: #b185b8;
   padding-bottom: 50px;
   padding-top: 50px;
+}
+/*------------------about us------------------*/
+#about-us {
+  background: #9967a5;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.about-title {
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 10%;
+}
+/* espaco entre as palavras a carol inse maria rita */
+#about-us ul li {
+  margin: 10px 0;
+}
+#about-us ul {
+  margin-left: 20px;
+}
+
+/*------------------ projects------------------*/
+#projects {
+  margin: 100px 0;
+}
+
+.projects {
+  border-left: 4px solid #5d3d98;
+  width: 20px;
+  border-radius: 100%;
+  margin: 0 10px;
 }
