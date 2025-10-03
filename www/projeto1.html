@@ -31,9 +31,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">SKILLS</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">ABOUT US</a></li>
+            <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">SKILLS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about-us">ABOUT US</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact-us">CONTACT US</a></li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -52,9 +53,6 @@
                   <a class="dropdown-item" href="#">Something else here</a>
                 </li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT US</a>
             </li>
           </ul>
         </div>
@@ -128,13 +126,64 @@
     <section id="projects">
       <div class="container">
         <h1 class="title text-center">PROJECTS</h1>
-        <div class="row">
+        <div class="row offsent-1">
           <div class="col-md-5 projects">
             <p>Descrição do projeto 3</p>
             <img src="images/user1.jpg">
-            <p><b>Ines Martins</b><br> Estudante de programação</p>
+            <p class="user-details"><b>Ines Martins</b><br> Estudante de programação</p>
+          </div>
+          <div class="col-md-5 projects">
+            <p>Descrição do projeto nwbsbdnd sndsndndm sndndndnd  djdjdk
+              djbdkbdkjebn dmdmd,dmmdn
+            </p>
+            <img src="images/user2.jpg">
+            <p class="user-details"><b>Carolina Canto</b><br> Estudante de programação</p>
           </div>
       </div>
     </section>
+    <!------------------CONTACT US------------------------->
+    <section id="contact-us">
+      <div class="container text-center">
+        <p>CONTACT US</p>
+          <div class="social-icons">
+            <a href="#"><img src="images/F.png"></a>
+            <a href="#"><img src="images/T.png" ></a>
+            <a href="#"><img src="images/instagram-icon.png"></a>
+            <a href="#"><img src="images/L.png"></a>
+            <a href="#"><img src="images/W.png"></a>
+            <a href="#"><img src="images/S.png"></a>
+        </div>
+      </div>
+    </section> 
+    <!------------------RODAPE FINAL------------------------->
+    <section id="rodape">
+      <img src="images/wave2.png" class="footer-img">
+      <div class="row">
+        <div class="col-md-4 footer-box">
+          <img src="images/demo-logo.png">
+          <p>aaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa
+            aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa</p>
+        </div>
+        <div class="col-md-4 footer-box">
+          <p><b>CONTACT US</b></p>
+          <p><i class="fa fa-map-marker"></i>PORTUGAL, lisbon</p>
+          <p><i class="fa fa-phone"></i>+351 999 999 999</p>
+          <p><i class="fa fa-envelope"></i>info@demo.com</p>
+        </div>
+        <div class="col-md-4 footer-box">
+          <p><b>SUBSCRIBE NEWSLETTER</b></p>
+          <input type="email" class="retangulo email" placeholder="Your email address">
+          <button type="button" class="btn btn-primary">SUBSCRIBE</button>
+          
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright 2024 - All Rights Reserved</p>
+    </section>
+    <!----------------Smooth Scroll------------------->
+    <script src="smooth-scroll.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
   </body>
 </html>
