@@ -64,62 +64,59 @@
           </div>
       </nav>
     </section>
-    <!-----------------SLIDESHOW---------------->
-    <section id="slides">
-      <div class="container-fluid">
-        <div id="carouselExample" class="carousel slide carousel-dark carousel-fade">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <p class="promo-title">Karina Rodrigez</p>
-                <p class="description">
-                  De dia, sou uma menina normal com uma vida normal, 
+    <!-----------------carousel---------------->
+    <section id="carousel">
+      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="images/slider1.jpg" class="d-block w-100 c-img" alt="slide1">
+            <div class="carousel-caption top-0 mt-5 d-block ">
+              <h1 class="mt-5  fw-bolder">Karina Rodrigez</h1>
+              <p class="subtext">De dia, sou uma menina normal com uma vida normal, 
                   mas há uma coisa sobre mim que ainda ninguém sabe. 
-                  É que eu tenho um segredo... Sou a Ladybug!
-                </p>
-                <a href="#projects" class="btn btn-outline-dark btn-lg">Projetcs</a>
+                  É que eu tenho um segredo... Sou a Ladybug!</p>
+              <button class="btn btn-outline-dark btn-lg px-4  mt-5 btn-slide-1">Projetcs</button>
             </div>
-            <div class="carousel-item align-items-center">
-              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at tortor a massa facilisis venenatis sit amet non libero. Etiam vel sem venenatis tellus laoreet feugiat eu in mi. "
-              </p>
-              <h5>June Doe</h5>
+          </div>
+
+          <div class="carousel-item c-item">
+              <img src="images/slider2.jpg" class="d-block w-100 c-img " alt="slide2">
+              <div class="carousel-caption top-0 mt-5 d-block ">
+                <h1 class="mt-5  fw-bolder ">Adrien Agreste</h1>
+                <p class="subtext">Some representative placeholder content for the second slide aaaaaaaaaaaaaaaaa
+                  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.</p>
+                <button class="btn btn-outline-dark btn-lg px-4  mt-5 btn-slide-2">Projetcs</button>
+              </div>
             </div>
-            <div class="carousel-item">
-              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non metus eu sem ultrices tincidunt sit amet ac nisi. In hac habitasse platea dictumst. Aliquam pellentesque diam non eros feugiat maximus. " </p>
-              <h5>Johnny Doe</h5>
+
+            <div class="carousel-item c-item">
+              <img src="images/slider3.jpg" class="d-block w-100 c-img" alt="slide3">
+              <div class="carousel-caption top-0 mt-5 d-block">
+                <h1 class="mt-5  fw-bolder">Third slide label</h1>
+                <p class="subtext">Some representative placeholder content for the third slide.</p>
+                <button class="btn btn-outline-dark btn-lg px-4 mt-5  btn-slide-3">Projetcs</button>
+              </div>
             </div>
-           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
-        </div>
-      </div>
-    </section>
-    <!---------------BANNER--------------------->
-    <section id="banner">
-      <div class="container-lg">
-        <div class="row align-items-center">
-          <div class="col-sm-6">
-            <p class="promo-title">Karina Rodrigez</p>
-            <p class="description">
-              De dia, sou uma menina normal com uma vida normal, 
-              mas há uma coisa sobre mim que ainda ninguém sabe. 
-              É que eu tenho um segredo... Sou a Ladybug!
-            </p>
-            <a href="#projects" class="btn btn-outline-dark btn-lg">Projetcs</a>
-          </div>
-          <div class="col-sm-6 text-center">
-            <img src="images/home2.png" class="img-fluid" />
-          </div>
-        </div>
-      </div>
-      <img src="images/wave1.png" class="bottom-img" />
-    </section>
+         </div>
+        </section>
+      
     <!---------------------SKILLS---------------------->
     <section id="skills">
       <div class="container">
