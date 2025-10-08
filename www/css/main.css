@@ -92,7 +92,11 @@ a:hover {
 }
 
 .navbar-nav .dropdown-menu li a:hover {
-  color: #ffffff;
+  color: #b60000;
+}
+.dropdown-menu {
+  background-color: #b54242;
+  box-shadow: 4px 4px #000000;
 }
 
 /*------------------ Caroussel------------------*/
@@ -175,6 +179,7 @@ a:hover {
 }
 
 /*----------------SKILLS----------------*/
+
 #skills {
   padding: 80px 0;
   text-align: center;
@@ -210,14 +215,31 @@ a:hover {
 #skills .col-sm-6 {
   display: flex;
 }
+.title-skills {
+  color: #19162f;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.text-skill {
+  color: #c30000;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: oblique;
+}
 
 /*------------------about us------------------*/
 #about-us {
   background: #b54242;
   padding-bottom: 50px;
   padding-top: 50px;
+  background-image: url('../images/joaninha.jpg');/* os '..' é para ir buscar na pasta anterior */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .about-title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ffffff;
+  font-style: oblique;
   font-size: 36px;
   font-weight: 600;
   margin-top: 10%;
@@ -229,6 +251,15 @@ a:hover {
 #about-us ul {
   margin-left: 20px;
   margin-bottom: 4rem;
+}
+.about-me {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  
+  color: #ffffff;
+  
+}
+.text-aboutme {
+  color: #fff;
 }
 
 /*------------------ projects------------------*/
@@ -260,6 +291,15 @@ a:hover {
   display: block;
   transform: translateY(63px);
 }
+.title-projects {
+  color: #19162f;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.text-projects {
+  color: #c30000;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: oblique;
+}
 
 /*------------------ contact us------------------*/
 #contact-us {
@@ -286,6 +326,10 @@ a:hover {
   text-align: center;
   padding-top: 7px;
   border-radius: 2px;
+}
+.title-contact {
+  color: #19162f;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /*------------------ RODAPE FINAL------------------*/
