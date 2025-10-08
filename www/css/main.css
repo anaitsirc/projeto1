@@ -230,7 +230,7 @@ a:hover {
   background: #b54242;
   padding-bottom: 50px;
   padding-top: 50px;
-  background-image: url('../images/joaninha.jpg');/* os '..' é para ir buscar na pasta anterior */
+  background-image: url('../images/joaninha.jpg');/* os '..' é para ir buscar na pasta anterior quando queremos buscar uma pasta que nao e subpasta */
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
