@@ -92,58 +92,123 @@ a:hover {
 }
 /*------------------ Caroussel------------------*/
 .c-item {
-  height: 480px;
+  height: 600px;
 }
 .c-img {
   height: 100%;
   object-fit: cover;
   filter: brightness(0.6);
   opacity: 0.7;
+  
 }
-.btn-slide-1 {
+.carousel-caption {
+    /* Apenas para garantir que o texto dentro das captions também está centrado */
+    text-align: center; 
+    /* Garante que ocupe a altura total para a centralização vertical funcionar */
+    height: 100%;
+}
+
+/* Configuração da Caixa de Texto: Alinha o conteúdo HORIZONTALMENTE */
+.caixa-texto {
+    /* Define a largura máxima para o texto */
+    max-width: 600px; 
+    /* Centraliza o bloco de texto horizontalmente */
+    margin-left: auto;
+    margin-right: auto;
     
-    background-color: #743e5e; 
-    border-color: #561fce; 
-    color: rgb(219, 30, 30); 
-    box-shadow: #000;
+    /* Centra todo o texto (h1 e p) dentro da caixa */
+    text-align: center;
+    
+    /* Configura como Flex Container para centrar itens se necessário */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente o título, parágrafo e botão */
+}
+/*----------- poe o texto com barra de rolagem se for muito grande----------------*/
+.subtext {
+    /* Define uma altura máxima. Por exemplo, altura para 5 linhas de texto. */
+    /*max-height: 100px; */
+    /* Adiciona uma barra de rolagem se o texto for muito longo */
+    /*overflow-y: auto; */
+    /* Opcional: Adiciona espaço abaixo do parágrafo (irá mover o botão) */
+    /* margin-bottom: 20px; */
+}
+
+
+.caixa-texto button {
+    /* Retira o botão do fluxo normal do documento */
+    position: absolute; 
+    
+    /* Posiciona-o a uma certa percentagem do topo do slide (ex: 80% abaixo) */
+    top: 80%; 
+    
+    /* Centra horizontalmente o botão */
+    left: 50%;
+    transform: translateX(-50%);
+    
+    /* Garante que o botão esteja por cima dos outros elementos, se necessário */
+    z-index: 10; 
+}
+
+
+
+.btn-slide-1 {
+
+  background-color: transparent;
+  border-color: #49143c;
+  color:  #a33077;
+  
 }
 
 .btn-slide-1:hover {
-    
-    background-color: #dd7859; 
-    border-color: #e64a19;
-    color: white;
+  background-color:  #a33077;
+  border-color:  #a33077;
+  color: #f06c6c;
 }
 
 .btn-slide-2 {
-   
-    background-color: transparent;
-    border-color: #00e676; 
-    color: #00e676; 
-    box-shadow: #000;
+  background-color: transparent;
+  border-color: #0d3922;
+  color: #00e676;
+  
 }
 
 .btn-slide-2:hover {
-   
-    background-color: #00e676; 
-    border-color: #00e676;
-    color: #000;
+  background-color: #00e676;
+  border-color: #00e676;
+  color: #f06c6c;
 }
 
 .btn-slide-3 {
-   
-    background-color: #3f51b5; 
-    border-color: #3f51b5; 
-    color: white; 
-    box-shadow: #000;
+  background-color: transparent;
+  border-color: #1c33b6;
+  color: #4a85f2;
+  
 }
 
 .btn-slide-3:hover {
-    /* Efeito de hover (mais claro) */
-    background-color: #5c6bc0; 
-    border-color: #5c6bc0;
-    color: white;
+  /* Efeito de hover (mais claro) */
+  background-color: #4a85f2;
+  border-color: #4a85f2;
+  color: #f06c6c;
 }
+/*-----------------cores de texto slide--------------*/
+.text1{
+  color: #49143c;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text2{
+  color: #0d3922;
+  font-family: 'Courier New', Courier, monospace;
+}
+.text3{
+  color: #1c33b6;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.subtext{
+  color: #000000;
+}
+
 /*---------------slide section---------------------*/
 
 #slides {
