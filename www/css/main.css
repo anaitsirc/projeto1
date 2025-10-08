@@ -24,7 +24,7 @@ a {
 }
 
 a:hover {
-  color: #ff0000;
+  color: #d31717;
 }
 
 .card,
@@ -35,7 +35,7 @@ a:hover {
   background-color: transparent;
 }
 .btn-outline-dark:hover {
-  box-shadow: 4px 4px #ff0000;
+  box-shadow: 4px 4px #d31717;
 }
 
 .card {
@@ -193,20 +193,11 @@ a:hover {
 
 #skills h2::before {
   content: "";
-  background: #000000;
+  background: #d31717;
   height: 5px;
   width: 200px;
   display: block;
   transform: translateY(63px);
-}
-#skills h2::after {
-  content: "";
-  background: #000000;
-  height: 10px;
-  width: 50px;
-  margin-bottom: 40px;
-  display: block;
-  transform: translateY(8px);
 }
 
 #skills .row {
@@ -261,6 +252,15 @@ a:hover {
   transform: translateX(50%);
 }
 
+#projects h2::before {
+  content: "";
+  background: #d31717;
+  height: 5px;
+  width: 200px;
+  display: block;
+  transform: translateY(63px);
+}
+
 /*------------------ contact us------------------*/
 #contact-us {
   background: #ffffff;
@@ -290,7 +290,7 @@ a:hover {
 
 /*------------------ RODAPE FINAL------------------*/
 #rodape {
-  background-image: linear-gradient(to right, #4d0b0b, #d31717);
+  background-image: linear-gradient(to right, #9a6a6a, #d31717);
   color: #ffffff;
 }
 
