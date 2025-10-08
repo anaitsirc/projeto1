@@ -55,7 +55,7 @@ a:hover {
 }
 
 .navbar {
-  background-image: linear-gradient(to right, #ffffff, #656565);
+  background-image: linear-gradient(to right, #9a6a6a, #d31717);
   padding: 0 !important;
 }
 .navbar-brand img {
@@ -66,17 +66,17 @@ a:hover {
   padding: 0 10px;
 }
 .navbar-nav li a {
-  color: #fff;
+  color: #d31717;
   font-weight: 600;
 }
 .navbar-nav .nav-link {
-  color: #000000;
+  color: #4d0b0b;
   font-size: 1.1rem;
   transition: all 0.5s;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #ff9500;
+  color: #ffffff;
 }
 
 .navbar-nav .nav-item {
@@ -84,11 +84,11 @@ a:hover {
 }
 
 .navbar-nav .dropdown-menu li a {
-  color: #000000;
+  color: #4d0b0b;
 }
 
 .navbar-nav .dropdown-menu li a:hover {
-  color: #ff9500;
+  color: #ffffff;
 }
 /*------------------ Caroussel------------------*/
 .c-item {
@@ -99,70 +99,63 @@ a:hover {
   object-fit: cover;
   filter: brightness(0.6);
   opacity: 0.7;
-  
 }
 .carousel-caption {
-    /* Apenas para garantir que o texto dentro das captions também está centrado */
-    text-align: center; 
-    /* Garante que ocupe a altura total para a centralização vertical funcionar */
-    height: 100%;
+  /* Apenas para garantir que o texto dentro das captions também está centrado */
+  text-align: center;
+  /* Garante que ocupe a altura total para a centralização vertical funcionar */
+  height: 100%;
 }
 
 /* Configuração da Caixa de Texto: Alinha o conteúdo HORIZONTALMENTE */
 .caixa-texto {
-    /* Define a largura máxima para o texto */
-    max-width: 600px; 
-    /* Centraliza o bloco de texto horizontalmente */
-    margin-left: auto;
-    margin-right: auto;
-    
-    /* Centra todo o texto (h1 e p) dentro da caixa */
-    text-align: center;
-    
-    /* Configura como Flex Container para centrar itens se necessário */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centra horizontalmente o título, parágrafo e botão */
+  /* Define a largura máxima para o texto */
+  max-width: 600px;
+  /* Centraliza o bloco de texto horizontalmente */
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Centra todo o texto (h1 e p) dentro da caixa */
+  text-align: center;
+
+  /* Configura como Flex Container para centrar itens se necessário */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente o título, parágrafo e botão */
 }
 /*----------- poe o texto com barra de rolagem se for muito grande----------------*/
-.subtext {
-    /* Define uma altura máxima. Por exemplo, altura para 5 linhas de texto. */
-    /*max-height: 100px; */
-    /* Adiciona uma barra de rolagem se o texto for muito longo */
-    /*overflow-y: auto; */
-    /* Opcional: Adiciona espaço abaixo do parágrafo (irá mover o botão) */
-    /* margin-bottom: 20px; */
-}
 
+/* Define uma altura máxima. Por exemplo, altura para 5 linhas de texto. */
+/*max-height: 100px; */
+/* Adiciona uma barra de rolagem se o texto for muito longo */
+/*overflow-y: auto; */
+/* Opcional: Adiciona espaço abaixo do parágrafo (irá mover o botão) */
+/* margin-bottom: 20px; */
 
 .caixa-texto button {
-    /* Retira o botão do fluxo normal do documento */
-    position: absolute; 
-    
-    /* Posiciona-o a uma certa percentagem do topo do slide (ex: 80% abaixo) */
-    top: 80%; 
-    
-    /* Centra horizontalmente o botão */
-    left: 50%;
-    transform: translateX(-50%);
-    
-    /* Garante que o botão esteja por cima dos outros elementos, se necessário */
-    z-index: 10; 
+  /* Retira o botão do fluxo normal do documento */
+  position: absolute;
+
+  /* Posiciona-o a uma certa percentagem do topo do slide (ex: 80% abaixo) */
+  top: 80%;
+
+  /* Centra horizontalmente o botão */
+  left: 50%;
+  transform: translateX(-50%);
+
+  /* Garante que o botão esteja por cima dos outros elementos, se necessário */
+  z-index: 10;
 }
 
-
-
 .btn-slide-1 {
-
   background-color: transparent;
   border-color: #49143c;
-  color:  #a33077;
-  
+  color: #a33077;
 }
 
 .btn-slide-1:hover {
-  background-color:  #a33077;
-  border-color:  #a33077;
+  background-color: #a33077;
+  border-color: #a33077;
   color: #f06c6c;
 }
 
@@ -170,7 +163,6 @@ a:hover {
   background-color: transparent;
   border-color: #0d3922;
   color: #00e676;
-  
 }
 
 .btn-slide-2:hover {
@@ -183,7 +175,6 @@ a:hover {
   background-color: transparent;
   border-color: #1c33b6;
   color: #4a85f2;
-  
 }
 
 .btn-slide-3:hover {
@@ -193,19 +184,19 @@ a:hover {
   color: #f06c6c;
 }
 /*-----------------cores de texto slide--------------*/
-.text1{
+.text1 {
   color: #49143c;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.text2{
+.text2 {
   color: #0d3922;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
-.text3{
+.text3 {
   color: #1c33b6;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-.subtext{
+.subtext {
   color: #000000;
 }
 
@@ -323,7 +314,7 @@ a:hover {
 
 /*------------------about us------------------*/
 #about-us {
-  background: #c9c9c9;
+  background: #b54242;
   padding-bottom: 50px;
   padding-top: 50px;
 }
@@ -363,7 +354,7 @@ a:hover {
 
 /*------------------ contact us------------------*/
 #contact-us {
-  background: #f8f9fa;
+  background: #ffffff;
 }
 
 .social-icons img {
@@ -390,8 +381,8 @@ a:hover {
 
 /*------------------ RODAPE FINAL------------------*/
 #rodape {
-  background-image: linear-gradient(to right, #9a9a9a, #626262);
-  color: #fff;
+  background-image: linear-gradient(to right, #4d0b0b, #d31717);
+  color: #ffffff;
 }
 
 .row {
