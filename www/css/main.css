@@ -331,7 +331,22 @@ a:hover {
   color: #19162f;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+/*---------------------Gif lady bug---------------------*/
 
+#gif-lady-bug .container {
+    padding: 0;
+    margin: 0;
+    max-width: 100%; /* Garante que o contêiner ocupe toda a largura disponível */
+}
+.gif-lady-bug {
+    width: 100%;/* Faz o gif ocupar 100% da largura do contêiner */
+    height: auto;
+}
+.title-gif{
+    color: #ff0000;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-bottom: 20px;
+}
 /*------------------ RODAPE FINAL------------------*/
 #rodape {
   background-image: linear-gradient(to right, #9a6a6a, #d31717);
