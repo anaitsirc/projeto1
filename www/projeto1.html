@@ -39,7 +39,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#banner">HOME</a>
+                <a class="nav-link" href="#carousel">HOME</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#skills">SKILLS</a>
@@ -59,11 +59,11 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#" skills>Project 1</a>
+                    <a class="dropdown-item" href="#card1">Project 1</a>
                   </li>
-                  <li><a class="dropdown-item" href="#">Project 2</a></li>
-                  <li><a class="dropdown-item" href="#">Project 3</a></li>
-                  <li><a class="dropdown-item" href="#">Project 4</a></li>
+                  <li><a class="dropdown-item" href="#card2">Project 2</a></li>
+                  <li><a class="dropdown-item" href="#card3">Project 3</a></li>
+                  <li><a class="dropdown-item" href="#card4">Project 4</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -77,7 +77,12 @@
 
     <!-----------------carousel---------------->
     <section id="carousel">
-      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div
+        id="hero-carousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="3000"
+      >
         <div class="carousel-indicators">
           <button
             type="button"
@@ -258,10 +263,12 @@
           <div class="col-md-6 about-us">
             <p class="about-title">Super-Heroína e Estudante</p>
             <ul>
-              <li>Estudo no Secundário.</li>
-              <li>Ajudo os meus pais na pastelaria deles.</li>
-              <li>Admiro o Adrien.</li>
-              <li>Salvo o mundo.</li>
+              <li class="text-aboutme">Estudo no Secundário.</li>
+              <li class="text-aboutme">
+                Ajudo os meus pais na pastelaria deles.
+              </li>
+              <li class="text-aboutme">Admiro o Adrien.</li>
+              <li class="text-aboutme">Salvo o mundo.</li>
             </ul>
           </div>
           <div class="col-md-6">
@@ -276,7 +283,7 @@
       <div class="container">
         <h2 class="display-5 fw-bold mb-4 title-projects">Projects</h2>
         <div class="row">
-          <div class="col-lg col-sm-6 mt-4">
+          <div class="col-lg col-sm-6 mt-4 card1" id="card1">
             <div class="card">
               <img src="images/ladybugP1.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -288,7 +295,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg col-sm-6 mt-4">
+          <div class="col-lg col-sm-6 mt-4 card2" id="card2">
             <div class="card">
               <img src="images/ladybugP2.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -300,7 +307,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg col-sm-6 mt-4">
+          <div class="col-lg col-sm-6 mt-4 card3" id="card3">
             <div class="card">
               <img src="images/ladybugP3.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -313,7 +320,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg col-sm-6 mt-4">
+          <div class="col-lg col-sm-6 mt-4 card4" id="card4">
             <div class="card">
               <img src="images/ladybugP4.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -330,7 +337,13 @@
         </div>
       </div>
     </section>
-
+    <!----------------------------Gif lady bug--------------->
+    <section id="gif-lady-bug">
+      <div class="container text-center mt-4 mb-4">
+        <h1 class="display-5 fw-bold title-gif">LUCKY CHARM!!</h1>
+        <img src="images/giflady.gif" class="gif-lady-bug" alt="..." />
+      </div>
+    </section>
     <!------------------CONTACT US------------------------->
     <section id="contact-us">
       <div class="container text-center">
@@ -362,6 +375,7 @@
         <div class="col-md-6 footer-box">
           <img src="images/tikky.png" />
           <p>“Mesmo a menor das joaninhas pode mudar o mundo.”</p>
+          <p>-Lady Bug</p>
         </div>
         <div class="col-md-6 footer-box">
           <p><b>SUBSCRIBE NEWSLETTER</b></p>
